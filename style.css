@@ -1,13 +1,13 @@
 .header{
     background-color: rgba(0, 0, 0, 0.525);
     width: 100vw;
-    height: 107px;
+    height: 70;
     display: flex;
     justify-content: space-around;
 }
 .logo{
-    width: 255px;
-    height: 79px;
+    width:30vw;
+    /* height: 1; */
 }
 .main{
     width: 100%;
@@ -43,11 +43,16 @@
     display: flex;
     justify-content: space-around;
     }
-.nav_text{color: azure;}
+.nav_text{
+    color: azure;
+    display: flex;
+    flex-wrap: wrap; 
+}
 .car{width:100vw}
 .h9{
     border-radius: 10%;
-    width: 65vw;
+    width: 60vw;
+    height: 50vw;
 }
 .maindiv{
     margin-left: 5%;
@@ -73,8 +78,8 @@
     justify-content: flex-start;
 }
 .icon{
-    width: 63px;
-    height: 63px
+    width: 5vw;
+    height: 5vw
 }
 .footer_cont{
     display: flex;
@@ -93,4 +98,8 @@
 .body{
     width: 50vh;
     height: 50vh;
+}
+@media screen and (width < 450px){
+    .h2{font-size: medium;}
+    .h3{font-size: small;}
 }
