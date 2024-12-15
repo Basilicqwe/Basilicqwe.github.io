@@ -1,57 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  </head>
+  <body class="body bbg">
+    <header class="header">
+      <a href="/index.html"
+        ><p><img src="img/logo.png" class="logo" /></p
+      ></a>
+      <a href="#main" class="scroll"><h1 class="nav-text h2">Модели</h1></a>
+      <a href="#footer" class="scroll"
+        ><h1 class="nav-text h2">Официальные дилеры</h1></a>
+      <a href="#footer" class="scroll"><h1 class="nav-text h2">Контакты</h1></a>
+    </header>
+    <img src="img/car.png" class="car" />
+    <main class="main1" id="main">
+      <div class="slider">
+        <div>
+          <img src="img/h9.png" class="h9" />
+          <div class="maindiv">
+            <h1>НОВЫЙ</h1>
+            <h1>LAVAH 9H</h1>
+            <h4 class="comp">Комплектации:</h4>
+            <p class="comp">ELITE</p>
+            <p class="comp">PREMIUM</p>
+          </div>
+        </div>
+        <div>
+          <img src="img/f7x.jpg" class="h9">
+          <div class="maindiv">
+            <h1>НОВЫЙ</h1>
+            <h1>LAVAH X7f</h1>
+            <h4 class="comp">Комплектации:</h4>
+            <p class="comp">ELITE</p>
+            <p class="comp">PREMIUM</p>
+          </div>
+        </div>
+      </div>
+      <!-- <div>
+            <div><a class="active" data-slide-index="0"><img src="0_min.jpg" /></a></div>
+            <div><a class="active" data-slide-index="0"><img src="0_min.jpg" /></a></div>
+        </div> -->
+    </main>
+    <footer class="footer" id="footer">
+      <!-- <h1>c</h1> -->
+      <div class="footer_cont">
+        <div class="cont">
+          <img src="img/tg.png" class="icon" />
+          <h2 class="h3">@LAVAHRUS_OFFC</h2>
+        </div>
+        <div class="cont">
+          <img src="img/wtsp.png" class="icon" />
+          <h2 class="h3">+7(978) 596 45-24</h2>
+        </div>
+        <div class="cont">
+          <img src="img/wechat.jpeg" class="icon" />
+          <h2 class="h3">ID:LAVAHOFFC28</h2>
+        </div>
+
+        <div class="footer_cont">
+          <img src="img/mailru.png" class="icon" />
+          <h2 class="h3">basilic0503@mail.ru, lavahoffc@gmail.com</h2>
+        </div>
+      </div>
+      <div class="Copyright">Beijing,Moscow Copyright@2024</div>
+    </footer>
     <script src="script.js"></script>
-</head>
-<body class="bbg">
-    <body class="body">
-        <header class="header">
-            <a href="/index.html"><p><img src="img/logo.png" class="logo"></p></a>
-            <a href="" ><h1 class="nav-text h2">Модели</h1></a>
-            <a href=""><h1 class="nav-text h2">Официальные дилеры</h1></a>
-            <a href=""><h1 class="nav-text h2">Контакты</h1></a>
-        </header>
-            <img src="img/car.png" class="car">
-            <main class="prom"></main>
-        <main class="main1">
-            <img src="img/h9.png" class="h9">
-            <div class="maindiv">
-                <h1>НОВЫЙ</h1>
-                <h1>LAVAH 9H</h1>
-                <h4 class="comp">Комплектации:</h4>
-                <p class="comp">ELITE</p>
-                <p class="comp">PREMIUM</p></div>
-    
-        </main >
-        <footer class="footer">
-            <!-- <h1>c</h1> -->
-            <div class="footer_cont">
-                <div class="cont">            
-                    <img src="img/tg.png" class="icon">
-                    <h2 class="h3">@LAVAHRUS_OFFC</h2></div>
-                <div class="cont">
-                    <img src="img/wtsp.png" class="icon">
-                    <h2 class="h3">+7(978) 596 45-24</h2>
-                </div>
-                <div class="cont">
-                    <img src="img/wechat.jpeg" class="icon">
-                    <h2 class="h3">ID:LAVAHOFFC28</h2>
-                </div>
-    
-            <div class="footer_cont">
-                <img src="img/mailru.png" class="icon">
-                <h2 class="h3">basilic0503@mail.ru, lavahoffc@gmail.com</h2></div>
-    
-            </div>
-            <div class="Copyright">
-                Beijing,Moscow
-                Copyright@2024</div>
-        </footer>
-    </body>
-    
-</body>
+  </body>
 </html>
